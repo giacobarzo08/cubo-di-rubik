@@ -1,5 +1,5 @@
 # EMULATORE DI UN CUBO RI RUBIK
-Questo programma ha lo scopo di consentire all'utente di utilizzare un cubo di Rubik digitale: su un display vengono visualizzate tutte le facce del cubo ed è possibile ruotare il cubo nel modi standard, che sono spiegati poco sotto, come si farebbe con un cobo reale.
+Questo programma ha lo scopo di consentire all'utente di utilizzare un cubo di Rubik digitale: su un display vengono visualizzate tutte le facce del cubo ed è possibile ruotare il cubo nei modi standard, che sono spiegati poco sotto, come si farebbe con un cubo reale.
 E' anche possibile, grazie alle funzioni della libreria `pyvista`, avere una vista cartesiana in 3D del cubo (è possibile anche, con una leggera modifica al codice: bisogna inserire il parametro `True` alla chimata della funzione `plt.plot_cube()` alla riga 182 del file `app.py`, passare ad una vista isometrica).
 
 ## Possibili Mosse
@@ -58,3 +58,8 @@ sudo apt update
 sudo apt install git zip unzip
 # riavviare il computer/WSL
 ```
+## Ancora in elaborazione
+Stiamo ancora sviluppando una parte di questo programma, che ha il compito risolvere i cubi mescolati dall'utente tramite le funzioni della libreria `PyTorch`. Ci teniamo a ringraziare anticipatamente [scumaym](https://github.com/shumaym) per avere creato [questo](https://github.com/shumaym/Rubiks_Cube_AI) reperstory che ci aiuterà molto nel nostro progetto.
+
+# Licenza
+Non esiste ancora una licenza per questo progetto
